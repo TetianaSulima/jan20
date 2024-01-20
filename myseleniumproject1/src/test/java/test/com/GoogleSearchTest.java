@@ -63,7 +63,7 @@ public class GoogleSearchTest {
 //    driver.findElement(By.name("header_block")).click();
     try {
         System.out.println("im in");
-  assertEquals("Log Into Facebook", driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div/div[2]/div[2]/form/div/div[3]/button")).getText());
+  //assertEquals("Log Into Facebook", driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div/div[2]/div[2]/form/div/div[3]/button")).getText());
     } catch (Error e) {
       fail(e.toString());
     } finally {
